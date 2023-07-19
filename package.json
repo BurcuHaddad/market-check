@@ -1,0 +1,23 @@
+{
+  "name": "market-check",
+  "version": "1.0.0",
+  "description": "inventory tracker with suggestions of recipes",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development&&nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js"
+  },
+  "author": "Burcu Haddad",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.1",
+    "mongoose": "^7.4.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
